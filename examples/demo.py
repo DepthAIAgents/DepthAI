@@ -9,7 +9,7 @@ sys.path.append(src_path)
 from agent import AgentManager
 
 # Initialize the agent
-api_key = "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"
+api_key = os.getenv('OPENAI_API_KEY')
 manager = AgentManager(api_key)
 
 # Create two agents

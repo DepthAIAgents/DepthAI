@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # Initialize OpenAI API (ensure you have your API key set)
-openai.api_key = "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"
+openai.api_key = os.getenv('OPENAI_API_KEY')
 Base = declarative_base()
 DATABASE_URL = "sqlite:///agents.db"  # SQLite database file
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})

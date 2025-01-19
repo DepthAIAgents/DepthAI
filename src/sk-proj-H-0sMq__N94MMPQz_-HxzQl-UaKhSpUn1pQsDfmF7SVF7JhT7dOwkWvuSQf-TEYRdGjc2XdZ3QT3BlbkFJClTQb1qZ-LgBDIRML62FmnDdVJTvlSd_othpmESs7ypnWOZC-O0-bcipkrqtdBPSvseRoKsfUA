@@ -26,5 +26,17 @@
                 "content": "A string is a data type used in programming that represents sequence of characters, like a word or a phrase. Strings are typically created by enclosing characters in quotation marks, like so: \"Hello, World\". They are particularly useful for handling text and can be manipulated and used in various ways, such as being concatenated, split or searched within."
             }
         ]
+    },
+    "strineag": {
+        "conversation_history": [
+            {
+                "role": "user",
+                "content": "string"
+            },
+            {
+                "role": "assistant",
+                "content": "In computer science, a string is a data type used for storing and manipulating a sequence of characters such as letters, numbers, or symbols. This could include words, sentences, or even whole paragraphs of text. For example, in many programming languages \"Hello, world!\" is a string. It is often used in programming for handling and displaying text."
+            }
+        ]
     }
 }
